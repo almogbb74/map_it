@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheetContainer"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    android:background="@drawable/bottom_sheet_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:text="@string/add_question"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#ECECEC"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/questionEditText"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/question"
+            android:paddingStart="8dp"
+            android:textSize="13sp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/appLogoGenerateQuestion"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/app_icon_black" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ECECEC"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginEnd="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:id="@+id/answer1EditText"
+                android:hint="@string/answer_1"
+                android:paddingStart="8dp"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginEnd="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:id="@+id/answer2EditText"
+                android:hint="@string/answer_2"
+                android:paddingStart="8dp"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginEnd="25dp"
+                android:layout_weight="1"
+                android:id="@+id/answer3EditText"
+                android:background="@drawable/edit_text_bg"
+                android:hint="@string/answer_3"
+                android:paddingStart="8dp"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginEnd="25dp"
+                android:layout_weight="1"
+                android:id="@+id/answer4EditText"
+                android:background="@drawable/edit_text_bg"
+                android:hint="@string/answer_4"
+                android:paddingStart="8dp"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+        </LinearLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingTop="5dp"
+            android:orientation="horizontal"
+            android:id="@+id/answersRadioGroup"
+            android:paddingStart="25dp"
+            android:layout_marginTop="45dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/ans1RadioButton"
+                android:text="@string/answer_1"
+                android:textSize="11sp"
+                android:layout_marginEnd="15dp"
+                tools:ignore="TouchTargetSizeCheck" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/ans2RadioButton"
+                android:text="@string/answer_2"
+                android:textSize="11sp"
+                android:layout_marginEnd="15dp"
+                tools:ignore="TouchTargetSizeCheck" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/ans3RadioButton"
+                android:text="@string/answer_3"
+                android:textSize="11sp"
+                android:layout_marginEnd="15dp"
+                tools:ignore="TouchTargetSizeCheck" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/ans4RadioButton"
+                android:text="@string/answer_4"
+                android:textSize="11sp"
+                android:layout_marginEnd="15dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/finishQuestionBtn"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="75dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textColor="@color/white"
+            android:text="@string/finish"/>
+    </LinearLayout>
+</LinearLayout>

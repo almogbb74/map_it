@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "41805938809",
+    "project_id": "map-it-6a7c2",
+    "storage_bucket": "map-it-6a7c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41805938809:android:17a8a29e0c04f7304a54a8",
+        "android_client_info": {
+          "package_name": "com.almogbb.mapit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41805938809-4441dq7pnfb800os6m3fereacsk8ag3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVUWkiHH4be9d_rKcrFxHsCeWrIlq6OTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41805938809-4441dq7pnfb800os6m3fereacsk8ag3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
