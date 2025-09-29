@@ -18,4 +18,4 @@ Persistent Data Storage: Uses Firebase for scalable, real-time data management o
 
 Customizable Quizzes: Allows users to define a topic and select the number of questions, enabling the creation of custom, user-centric learning sessions.
 
-[Flask server repo:](https://github.com/almogbb74/t5_question_generation).
+[Flask server repository](https://github.com/almogbb74/t5_question_generation).
