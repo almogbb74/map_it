@@ -6,7 +6,7 @@ Map It! is a full-stack mobile application system designed to create, manage, an
 The platform utilizes a Python/Flask backend for core logic, a NoSQL Firebase Database for real-time data storage, and a robust architecture to handle mobile user interactions and server-side processing.
 
 
-🚀 Key Features
+## 🚀 Key Features
 
 AI-Powered Question Generation: Utilizes Natural Language Processing (NLP) techniques and the T5 Model to programmatically generate quiz questions based on user input.
   
